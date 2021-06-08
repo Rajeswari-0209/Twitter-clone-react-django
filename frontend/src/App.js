@@ -112,7 +112,6 @@ function Home() {
                       placeholder="upload file"
                       onChange={uploadImage}
                     ></input>
-                    {loading ? <h3>loading...</h3> : <p>{image}</p>}
                   </div>
                   <button class="btn" onClick={() => handleNewTweet()}>
                     Tweet
